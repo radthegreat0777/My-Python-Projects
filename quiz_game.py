@@ -21,9 +21,9 @@ if guess == "yes":
         print("!! Wrong !!")
         incorrect += 1
 
-    question2 = input("Q2: How many weekdays are there in a week?: ").lower()
+    question2 = input("Q2: How many days are there in a week?: ").lower()
 
-    if question2 == "5" or question2 == "five" or question2 == "5 days" or question2 == "five days":
+    if question2 == "7" or question2 == "seven" or question2 == "7 days" or question2 == "seven days":
         print("Correct....")
         count += 1
     else:
