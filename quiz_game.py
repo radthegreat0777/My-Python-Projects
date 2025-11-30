@@ -21,7 +21,7 @@ if guess == "yes":
         print("!! Wrong !!")
         incorrect += 1
 
-    question2 = input("Q2: How many days are there in a week?: ").lower()
+    question2 = input("Q2: How many da are there in a week?: ").lower()
 
     if question2 == "7" or question2 == "seven" or question2 == "7 days" or question2 == "seven days":
         print("Correct....")
@@ -62,5 +62,8 @@ if guess == "yes":
     else:
         print(f"Better Luck Next Time !!\nYour score is {count}")
 
+elif guess == "no":
+    print("Thank You for Visiting")
+
 else:
-    quit()
+    print("Invalid Input")
